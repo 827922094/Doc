@@ -1,0 +1,894 @@
+{
+  "homepages": [],
+  "source_base_path": "G:/Doc/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.ActionChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.ActionChain.html",
+          "hash": "IThhgtrkou55KttsCO1glw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.AssemblyManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.AssemblyManager.html",
+          "hash": "XX8IGqeyiXjx8mIkhz0AYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.ClassExtention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.ClassExtention.html",
+          "hash": "12vRiHmTXBvu/N+s9HPyBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.CustomObjectFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.CustomObjectFactory-1.html",
+          "hash": "1vkkifgvkSMxWL854UcuTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.DefaultObjectFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.DefaultObjectFactory-1.html",
+          "hash": "s/di6rwG1abbotypqePpsQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.DelayAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.DelayAction.html",
+          "hash": "RSCGIBE+Is8KjThkHVzaIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.EventAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.EventAction.html",
+          "hash": "HDQ1lHPIZh2PcePPNu+EtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.EventInjector-1.InjectEventGetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.EventInjector-1.InjectEventGetter.html",
+          "hash": "mY+q0SMVZFb2F+0uSLiGpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.EventInjector-1.InjectEventTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.EventInjector-1.InjectEventTrigger.html",
+          "hash": "EFiTxTE7kTyezrGv8W11Dw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.EventInjector-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.EventInjector-1.html",
+          "hash": "J0CevGVPa8cL1TM5kt0n9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.FromString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.FromString.html",
+          "hash": "ZqWOWSFCB7UyDfVE8qEefw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.FuncOrActionOrEventExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.FuncOrActionOrEventExtension.html",
+          "hash": "pSUyFC8caWl9qfI/iCoSjg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.GenericExtention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.GenericExtention.html",
+          "hash": "AWdvfJJ3XDxyHWE1pgskaA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IAction.html",
+          "hash": "pvNS9hFdViVZOavPXg5yiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IActionChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IActionChain.html",
+          "hash": "oQ24UMaaerl5O4dl6NxScQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IActionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IActionExtension.html",
+          "hash": "uBHz7zZ0ORhisMIyNqE8Zg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.ICountObserveAble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.ICountObserveAble.html",
+          "hash": "j1NIk0V8xxAOkWUCIPJwtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IDisposeEventRegister.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IDisposeEventRegister.html",
+          "hash": "ebi+/O9IBoCLTI+uyjQBog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IDisposeWhen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IDisposeWhen.html",
+          "hash": "eBxEj+JHt8tOjlnyVSu0DQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IEnumerableExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IEnumerableExtension.html",
+          "hash": "c4TIoYtlJQIQ7KBaqFcp7g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.INode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.INode.html",
+          "hash": "3DK7VJzKxoAZI1kSGKok9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IOExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IOExtension.html",
+          "hash": "Gu/3GHrpQ1r030y8h3ezxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IObjectFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IObjectFactory-1.html",
+          "hash": "9gCda48DDDoc/Jgzis3IOA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IPool-1.html",
+          "hash": "GVtvun+417PwnOkgrlL5og=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IPoolType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IPoolType.html",
+          "hash": "xf5c8oOhNHZ563EKA80o7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.IPoolable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.IPoolable.html",
+          "hash": "WB+XxZnBrYG9r8eAOcGndQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.ISingleton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.ISingleton.html",
+          "hash": "8oLKvrsHYjSFU5IEIo3Vnw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.KeyEventAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.KeyEventAction.html",
+          "hash": "0mv2rKFzw0eEmAwD8ZXCGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.MonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.MonoSingleton-1.html",
+          "hash": "HESYxX/3eEfPQHUMIl7Cug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.MonoSingletonCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.MonoSingletonCreator.html",
+          "hash": "MCsmnD5+ScdnyMFeatnycw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.MonoSingletonPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.MonoSingletonPath.html",
+          "hash": "XUJw74QytlDbcfcLvUBETA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.MonoSingletonProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.MonoSingletonProperty-1.html",
+          "hash": "EoXBb74KlagODzGzatTmRg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.NodeAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.NodeAction.html",
+          "hash": "2uDNQSK4gXrOZaa8/G+M3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.NodeActionSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.NodeActionSystem.html",
+          "hash": "j4dv1K2AC7JbozaTot1fMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.NonPublicObjectFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.NonPublicObjectFactory-1.html",
+          "hash": "8KshIJNb7YXtoDrNbl61hQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.NonPublicObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.NonPublicObjectPool-1.html",
+          "hash": "FPywc0L7N67TKQ2fp30h/w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.OOPExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.OOPExtension.html",
+          "hash": "UnVIsatdyebSQyRezHsFJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.Pool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.Pool-1.html",
+          "hash": "9AaoHsI7L1XMhROzxTvg5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.ProcessNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.ProcessNode.html",
+          "hash": "VKJ6Go1n5e0vpQ7zwox/Xw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.QMonoSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.QMonoSingleton-1.html",
+          "hash": "SAvwfciS0yepUl7W+PsCpw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.QMonoSingletonPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.QMonoSingletonPath.html",
+          "hash": "V/gp0htAiii6z5OWv2d1FA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.QMonoSingletonProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.QMonoSingletonProperty-1.html",
+          "hash": "GQ9435qSWx01ha/8WaxmWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.QSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.QSingleton-1.html",
+          "hash": "ESCEoCdL3skXRNPEHxSUBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.QSingletonProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.QSingletonProperty-1.html",
+          "hash": "B1Z5AZuHo3PHO9URABHJmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.ReflectionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.ReflectionExtension.html",
+          "hash": "JnF1xB2CjDre79dAp0hcSw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.RepeatNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.RepeatNode.html",
+          "hash": "RL/p4YMsHmnouQqvd5+n6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.RepeatNodeChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.RepeatNodeChain.html",
+          "hash": "zaFc4dsoH4VniTm4StjbWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.SafeObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.SafeObjectPool-1.html",
+          "hash": "X3P2v5oSYbFKT/BZJwU80A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.SequenceNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.SequenceNode.html",
+          "hash": "ozvimEvfCEX1AvFWMKDBoQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.SequenceNodeChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.SequenceNodeChain.html",
+          "hash": "z5QCbc/9KZAoj5UJ6btnWA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.SimpleObjectCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.SimpleObjectCache.html",
+          "hash": "rDfj3wo+cao4Q8153vBqrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.SimpleObjectPool-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.SimpleObjectPool-1.html",
+          "hash": "hdgq0md7jIlLg26hIG7/Ng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.Singleton-1.html",
+          "hash": "XSslmQT3tdL2jvHDGSBPng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.SingletonCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.SingletonCreator.html",
+          "hash": "c06Igm0LkHcqOmEcLJccbQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.SingletonProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.SingletonProperty-1.html",
+          "hash": "HPAp7ik5mCU5XW3I3R0u6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.SpawnNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.SpawnNode.html",
+          "hash": "y4YXjD97R3wO68Qjru5EHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.StringExtention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.StringExtention.html",
+          "hash": "2BVNz1QWnN/d0xySYMaiKQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.TimelineNode.TimelinePair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.TimelineNode.TimelinePair.html",
+          "hash": "zDBtqj/R3TiHhoMq9vwCAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.TimelineNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.TimelineNode.html",
+          "hash": "5SjRYJILWTWbJ4GcE9biZw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.ToString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.ToString.html",
+          "hash": "niqbPq2gs1nQOk8phXF+Rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.TypeEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.TypeEx.html",
+          "hash": "VDEKfQQi6Jofzoygk4VcnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.UntilAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.UntilAction.html",
+          "hash": "HISxcsTShD//Qlg8Wa+zZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Assets.Scripts.Framework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Assets.Scripts.Framework.html",
+          "hash": "NQQwPRAGFrmf8mN3vgrbsw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "jE2KJX47OAr7xjts5djfkQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "ukerqdjvt2Slb7+PzJsORA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Test.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Test.html",
+          "hash": "HjnSM145b5bwP5+H2Ggo1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "zHYzwsa2LBiE7t/XhQpacA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "/8OytORQa9DJA/2UMDgxuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "1hn+sqE6LTNjh6QVWx036Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 63,
+          "skipped_file_count": 63
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

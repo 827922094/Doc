@@ -1,0 +1,820 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MonoSingleton&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MonoSingleton&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.54.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Assets.Scripts.Framework.MonoSingleton`1">
+  
+  
+  <h1 id="Assets_Scripts_Framework_MonoSingleton_1" data-uid="Assets.Scripts.Framework.MonoSingleton`1" class="text-break">Class MonoSingleton&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">MonoSingleton&lt;T&gt;</span></div>
+      <div class="level6"><a class="xref" href="Assets.Scripts.Framework.QMonoSingleton-1.html">QMonoSingleton&lt;T&gt;</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Assets.Scripts.Framework.ISingleton.html">ISingleton</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.rigidbody</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.rigidbody2D</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.camera</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.light</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.animation</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.constantForce</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.renderer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.audio</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.guiText</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.networkView</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.guiElement</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.guiTexture</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.collider</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.collider2D</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.hingeJoint</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.particleEmitter</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.particleSystem</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Assets.Scripts.Framework.html">Assets.Scripts.Framework</a></h6>
+  <h6><strong>Assembly</strong>: ActionKit.dll</h6>
+  <h5 id="Assets_Scripts_Framework_MonoSingleton_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class MonoSingleton&lt;T&gt; : MonoBehaviour, ISingleton where T : MonoSingleton&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Assets_Scripts_Framework_MonoSingleton_1_mInstance" data-uid="Assets.Scripts.Framework.MonoSingleton`1.mInstance">mInstance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected static T mInstance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Assets_Scripts_Framework_MonoSingleton_1_Instance_" data-uid="Assets.Scripts.Framework.MonoSingleton`1.Instance*"></a>
+  <h4 id="Assets_Scripts_Framework_MonoSingleton_1_Instance" data-uid="Assets.Scripts.Framework.MonoSingleton`1.Instance">Instance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Assets_Scripts_Framework_MonoSingleton_1_Dispose_" data-uid="Assets.Scripts.Framework.MonoSingleton`1.Dispose*"></a>
+  <h4 id="Assets_Scripts_Framework_MonoSingleton_1_Dispose" data-uid="Assets.Scripts.Framework.MonoSingleton`1.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_Framework_MonoSingleton_1_OnDestroy_" data-uid="Assets.Scripts.Framework.MonoSingleton`1.OnDestroy*"></a>
+  <h4 id="Assets_Scripts_Framework_MonoSingleton_1_OnDestroy" data-uid="Assets.Scripts.Framework.MonoSingleton`1.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDestroy()</code></pre>
+  </div>
+  
+  
+  <a id="Assets_Scripts_Framework_MonoSingleton_1_OnSingletonInit_" data-uid="Assets.Scripts.Framework.MonoSingleton`1.OnSingletonInit*"></a>
+  <h4 id="Assets_Scripts_Framework_MonoSingleton_1_OnSingletonInit" data-uid="Assets.Scripts.Framework.MonoSingleton`1.OnSingletonInit">OnSingletonInit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnSingletonInit()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.ISingleton.html">ISingleton</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <span class="xref">BehaviourExtension.GetOrAddComponent&lt;T&gt;(UnityEngine.Component)</span>
+  </div>
+  <div>
+      <span class="xref">BehaviourExtension.Enable&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">BehaviourExtension.Disable&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">GameObjectExtension.Show&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">GameObjectExtension.Hide&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">GameObjectExtension.DestroyGameObj&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">GameObjectExtension.DestroyGameObjGracefully&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">GameObjectExtension.DestroyGameObjAfterDelay&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">GameObjectExtension.DestroyGameObjAfterDelayGracefully&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">GameObjectExtension.Layer&lt;T&gt;(T, System.Int32)</span>
+  </div>
+  <div>
+      <span class="xref">GameObjectExtension.Layer&lt;T&gt;(T, System.String)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.InstantiateQuick&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.InstantiateQuick&lt;T&gt;(UnityEngine.Object)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.InstantiateQuick&lt;T&gt;(T, UnityEngine.Transform)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.InstantiateQuick&lt;T&gt;(UnityEngine.Object, UnityEngine.Transform)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.Name&lt;T&gt;(T, System.String)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.DestroySelf&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.DestroySelfGracefully&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.DestroySelfAfterDelay&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.DestroySelfAfterDelayGracefully&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.ApplySelfTo&lt;T&gt;(T, System.Action&lt;T&gt;)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.DontDestroyOnLoad&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.As&lt;T&gt;(UnityEngine.Object)</span>
+  </div>
+  <div>
+      <span class="xref">ObjectExtension.LogInfo&lt;T&gt;(T, System.String, System.Object[])</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.Parent&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalIdentity&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalPosition&lt;T&gt;(T, UnityEngine.Vector3)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetLocalPosition&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalPosition&lt;T&gt;(T, System.Single, System.Single, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalPosition&lt;T&gt;(T, System.Single, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalPositionX&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalPositionY&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalPositionZ&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalPositionIdentity&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetLocalRotation&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalRotation&lt;T&gt;(T, UnityEngine.Quaternion)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalRotationIdentity&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalScale&lt;T&gt;(T, UnityEngine.Vector3)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetLocalScale&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalScale&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalScale&lt;T&gt;(T, System.Single, System.Single, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalScale&lt;T&gt;(T, System.Single, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalScaleX&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalScaleY&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalScaleZ&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.LocalScaleIdentity&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.Identity&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.Position&lt;T&gt;(T, UnityEngine.Vector3)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetPosition&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.Position&lt;T&gt;(T, System.Single, System.Single, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.Position&lt;T&gt;(T, System.Single, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.PositionIdentity&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.PositionX&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.PositionX&lt;T&gt;(T, System.Func&lt;System.Single, System.Single&gt;)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.PositionY&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.PositionY&lt;T&gt;(T, System.Func&lt;System.Single, System.Single&gt;)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.PositionZ&lt;T&gt;(T, System.Single)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.PositionZ&lt;T&gt;(T, System.Func&lt;System.Single, System.Single&gt;)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.RotationIdentity&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.Rotation&lt;T&gt;(T, UnityEngine.Quaternion)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetRotation&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetGlobalScale&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetScale&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetWorldScale&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.GetLossyScale&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.DestroyAllChild&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.AsLastSibling&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.AsFirstSibling&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.SiblingIndex&lt;T&gt;(T, System.Int32)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.ShowChildTransByPath&lt;T&gt;(T, System.String)</span>
+  </div>
+  <div>
+      <span class="xref">TransformExtension.HideChildTransByPath&lt;T&gt;(T, System.String)</span>
+  </div>
+  <div>
+      <span class="xref">IActionChainExtention.Repeat&lt;T&gt;(T, System.Int32)</span>
+  </div>
+  <div>
+      <span class="xref">IActionChainExtention.Sequence&lt;T&gt;(T)</span>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.ClassExtention.html#Assets_Scripts_Framework_ClassExtention_IsNull__1___0_">ClassExtention.IsNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.ClassExtention.html#Assets_Scripts_Framework_ClassExtention_IsNotNull__1___0_">ClassExtention.IsNotNull&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.OOPExtension.html#Assets_Scripts_Framework_OOPExtension_ImplementsInterface__1_System_Object_">OOPExtension.ImplementsInterface&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.ReflectionExtension.html#Assets_Scripts_Framework_ReflectionExtension_InvokeByReflect_System_Object_System_String_System_Object___">ReflectionExtension.InvokeByReflect(Object, String, Object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.ReflectionExtension.html#Assets_Scripts_Framework_ReflectionExtension_GetFieldByReflect_System_Object_System_String_">ReflectionExtension.GetFieldByReflect(Object, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.ReflectionExtension.html#Assets_Scripts_Framework_ReflectionExtension_GetPropertyByReflect_System_Object_System_String_System_Object___">ReflectionExtension.GetPropertyByReflect(Object, String, Object[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.StringExtention.html#Assets_Scripts_Framework_StringExtention_ConverToString_System_Object_">StringExtention.ConverToString(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.StringExtention.html#Assets_Scripts_Framework_StringExtention_ToStringableObjectConvertToString_System_Object_System_Type_">StringExtention.ToStringableObjectConvertToString(Object, Type)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.IActionExtension.html#Assets_Scripts_Framework_IActionExtension_ExecuteNode__1___0_Assets_Scripts_Framework_IAction_">IActionExtension.ExecuteNode&lt;T&gt;(T, IAction)</a>
+  </div>
+  <div>
+      <a class="xref" href="Assets.Scripts.Framework.IActionExtension.html#Assets_Scripts_Framework_IActionExtension_Delay__1___0_System_Single_System_Action_">IActionExtension.Delay&lt;T&gt;(T, Single, Action)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
